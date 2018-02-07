@@ -32,7 +32,7 @@ const FirebaseStore = require('connect-session-firebase')(session);
 
 var routes = require('./routes/index');
 var app = express();
-mongoose.connect('mongodb://localhost:27017/shop');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/shop');
 
 
 
