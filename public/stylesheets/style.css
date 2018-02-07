@@ -1,0 +1,29 @@
+.thumbnail img {
+    max-height: 150px;
+}
+
+.thumbnail .description {
+    color: #7f7f7f;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.flex-cont {
+    padding: 10px;
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+#loading-bar{
+    display: none;
+}

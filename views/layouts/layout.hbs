@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-red.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    
+
+  
+
+ <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+
+ <script>
+  
+  var config = {
+    apiKey: "AIzaSyCgLFfPI2xvGGoHXsoc2utdAe-0zRn6MMc",
+    authDomain: "nehhdc-b9932.firebaseapp.com",
+    databaseURL: "https://nehhdc-b9932.firebaseio.com",
+    projectId: "nehhdc-b9932",
+    storageBucket: "nehhdc-b9932.appspot.com",
+    messagingSenderId: "859853504227"
+  };
+     
+  firebase.initializeApp(config);
+ </script>
+
+
+
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+
+
+
+
+</head>
+
+<body>
+ <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+  
+    {{> header }}
+    <div class="container">
+        {{{body}}}
+    </div>
+
+
+
+    
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+     
+     <script src="/javascripts/firebaseAuth.js"></script>
+
+     
+
+
+
+</body>
+
+</html>
