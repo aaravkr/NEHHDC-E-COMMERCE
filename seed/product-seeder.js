@@ -15,34 +15,34 @@ var products =[
     
      new Product({
     imagePath:'https://upload.wikimedia.org/wikipedia/en/5/5e/Gothiccover.png',
-    title: 'learn',
-    description:'hardwork',
+    title: 'here will be the title',
+    description:'this is the description part',
     price:20
 }),
     
      new Product({
     imagePath:'https://upload.wikimedia.org/wikipedia/en/5/5e/Gothiccover.png',
-    title: 'learn',
-    description:'hardwork',
+    title: 'here will be the title',
+    description:'this is the description part',
     price:30
 }),
     
      new Product({
     imagePath:'https://upload.wikimedia.org/wikipedia/en/5/5e/Gothiccover.png',
-    title: 'learn',
-    description:'hardwork',
+    title: 'here will be the title',
+    description:'this is the description part',
     price:40
 }),
      new Product({
     imagePath:'https://upload.wikimedia.org/wikipedia/en/5/5e/Gothiccover.png',
-    title: 'learn',
-    description:'hardwork',
+    title: 'here will be the title',
+    description:'this is the description part',
     price:50
 }),
      new Product({
     imagePath:'https://upload.wikimedia.org/wikipedia/en/5/5e/Gothiccover.png',
-    title: 'learn',
-    description:'hardwork',
+    title: 'here will be the title',
+    description:'this is the description part',
     price:60
 }),
 ];
