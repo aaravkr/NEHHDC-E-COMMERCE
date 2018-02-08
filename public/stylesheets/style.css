@@ -1,5 +1,6 @@
 .thumbnail img {
     max-height: 150px;
+    
 }
 
 .thumbnail .description {
@@ -27,3 +28,45 @@
 #loading-bar{
     display: none;
 }
+
+/*
+.list-group-item{
+    border: none;
+    text-transform: capitalize;
+}
+.bhcheck{
+    
+   margin-left: 10px;
+}
+
+.cart_title{
+    font-family: monospace;
+    font-size: 15px;
+    margin:0 10px 0 10px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
